@@ -19,18 +19,18 @@ buildscript {
 }
 
 ext {
-    bintrayRepo = 'tools' // your repo name
-    bintrayName = 'library' // has to be same as your library module name
-    publishedGroupId = 'com.mx.uglysw.library' // your module package name
-    libraryName = 'library'
-    artifact = 'library' // has to be same as your library module name
-    libraryDescription = 'Some description'
-    siteUrl = 'https://bitbucket.org/uglysw/module-android/src/master/'
-    gitUrl = 'https://aovazquez@bitbucket.org/uglysw/module-android.git'
+    bintrayRepo = 'uglylib-android' // your repo name
+    bintrayName = 'uglylib' // has to be same as your library module name
+    publishedGroupId = 'com.mx.uglysw.uglylib' // your module package name
+    libraryName = 'uglylib'
+    artifact = 'uglylib' // has to be same as your library module name
+    libraryDescription = 'Libreria global para facilitar y agilizar el proceso de desarrollo de SW'
+    siteUrl = 'https://github.com/uglysw/uglylib-android'
+    gitUrl = 'https://github.com/uglysw/uglylib-android.git'
     libraryVersion = '1.0'
     developerId = 'uglysw'
-    developerName = 'aovazquez'
-    developerEmail = 'aovazquez4037@gmail.com'
+    developerName = 'uglysw'
+    developerEmail = 'uglysw@gmail.com'
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
@@ -38,8 +38,6 @@ ext {
 
 android {
     compileSdkVersion 26
-
-
 
     defaultConfig {
         minSdkVersion 16
